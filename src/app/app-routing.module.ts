@@ -44,6 +44,10 @@ import { ServicesPageThreeComponent } from './components/pages/services-page-thr
 import { ServicesPageTwoComponent } from './components/pages/services-page-two/services-page-two.component';
 import { TermsConditionsPageComponent } from './components/pages/terms-conditions-page/terms-conditions-page.component';
 import { TestimonialsPageComponent } from './components/pages/testimonials-page/testimonials-page.component';
+import { ContactUsComponent } from './components/common/contact-us/contact-us.component';
+// import { ContactUsComponent } from './components/pages/contact-us/contact-us.component';
+import { SpaTreatmentsComponent } from './components/pages/spa-treatments/spa-treatments.component';
+import { OsteoarthritisComponent } from './components/pages/osteoarthritis/osteoarthritis.component';
 
 const routes: Routes = [
     {path: '', component: HomeDemoOneComponent},
@@ -89,7 +93,11 @@ const routes: Routes = [
     // {path: 'contact-us', component: ContactPageOneComponent},
     // {path: 'contact-us-2', component: ContactPageTwoComponent},
     {path: 'contact-us-3', component: ContactPageThreeComponent},
+   
     // Here add new pages component
+    {path: 'contact-us-new,', component:ContactUsComponent},
+    {path: 'spaTreatments', component: SpaTreatmentsComponent},
+    {path: 'osteoarthritis', component: OsteoarthritisComponent},
 
     {path: '**', component: NotFoundComponent} // This line will remain down from the whole pages component list
 ];

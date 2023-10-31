@@ -105,6 +105,10 @@ import { BlogDetailsPageComponent } from './components/pages/blog-details-page/b
 import { WidgetSidebarComponent } from './components/common/widget-sidebar/widget-sidebar.component';
 import { HowVaccinesWorkPageComponent } from './components/pages/how-vaccines-work-page/how-vaccines-work-page.component';
 import { RegisterForVaccinePageComponent } from './components/pages/register-for-vaccine-page/register-for-vaccine-page.component';
+// import { ContactUsComponent } from './components/pages/contact-us/contact-us.component';
+import { ContactUsComponent } from './components/common/contact-us/contact-us.component';
+import { SpaTreatmentsComponent } from './components/pages/spa-treatments/spa-treatments.component';
+import { OsteoarthritisComponent } from './components/pages/osteoarthritis/osteoarthritis.component';
 
 @NgModule({
     declarations: [
@@ -198,7 +202,10 @@ import { RegisterForVaccinePageComponent } from './components/pages/register-for
         BlogDetailsPageComponent,
         WidgetSidebarComponent,
         HowVaccinesWorkPageComponent,
-        RegisterForVaccinePageComponent
+        RegisterForVaccinePageComponent,
+        ContactUsComponent,
+        SpaTreatmentsComponent,
+        OsteoarthritisComponent,
     ],
     imports: [
         BrowserModule,

@@ -4,8 +4,11 @@
     --font-family2: 'Heebo', sans-serif;
     --font-family3: 'Nunito Sans', sans-serif;
     --main-color: #06a3da;
-    --main-color2: #1DBFCC;
-    --optional-color: #124390;
+    // --main-color2: #1DBFCC;
+    // #69727d
+    --main-color2 : #009293;
+    // --optional-color: #124390;
+    --optional-color: #69727d;
     --white-color: #ffffff;
     --black-color: #222222;
     --black-color2: #002345;
@@ -1009,6 +1012,7 @@ img {
 
 // Page Banner
 .page-banner-area {
+    // position: fixed;
     background-color: var(--optional-color);
 
     &.two {

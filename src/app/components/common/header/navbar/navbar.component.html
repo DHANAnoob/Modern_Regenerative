@@ -1,13 +1,13 @@
-<div
+<!-- <div
     class="navbar-area"
     [ngClass]="{'d-none': router.url === '/index-4' || router.url === '/index-5' || router.url === '/index-6' || router.url === '/index-7' || router.url === '/index-8'|| router.url === '/services-4' || router.url === '/services-5' || router.url === '/services-6' || router.url === '/service-details-2' || router.url === '/contact-us-2' || router.url === '/contact-us-3' || router.url === '/about-us-3' || router.url === '/doctors' || router.url === '/portfolio' || router.url === '/portfolio-details', 'sticky': isSticky}"
 >
     <div class="container">
         <nav class="navbar navbar-expand-lg navbar-light bg-light" [class.active]="classApplied">
             <a class="navbar-brand" routerLink="/" (click)="toggleClass()">
-                <!-- <h1>
+                <h1>
                     LOL
-                </h1> -->
+                </h1>
                 <img src="/src/assets/images/Modern Regenerative Health black (1).png" alt="">
             </a>
             <button class="navbar-toggler" type="button" (click)="toggleClass()">
@@ -23,7 +23,7 @@
                         <a href="javascript:void(0)" routerLink="/index-5" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}" class="nav-link">
                             Home
                         </a>
-                        <!-- <ul class="dropdown-menu">
+                        <ul class="dropdown-menu">
                             <li class="nav-item">
                                 <a routerLink="/" class="nav-link" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">
                                     Home Demo - 1
@@ -64,7 +64,7 @@
                                     Home Demo - 8
                                 </a>
                             </li>
-                        </ul> -->
+                        </ul>
                     </li>
                     <li class="nav-item">
                         <a href="javascript:void(0)" class="dropdown-toggle nav-link">
@@ -579,10 +579,10 @@
             </div>
         </nav>
     </div>
-</div>
+</div> -->
 
 <!-- Navbar for Home Demo - 4 -->
-<div
+<!-- <div
     class="navbar-area navbar-style-two d-none"
     [ngClass]="{'d-block': router.url === '/index-4' || router.url === '/about-us-3', 'sticky': isSticky}"
 >
@@ -592,9 +592,9 @@
             [class.active]="classApplied"
         >
             <a class="navbar-brand" routerLink="/" (click)="toggleClass()">
-                <!-- <h1>
+                <h1>
                     LOL
-                </h1> -->
+                </h1>
                 <img src="/src/assets/images/Modern Regenerative Health logo (1).png" alt="">
             </a>
             <button class="navbar-toggler" type="button" (click)="toggleClass()">
@@ -1166,14 +1166,14 @@
             </div>
         </nav>
     </div>
-</div>
+</div> -->
 
 <!-- Navbar for Home Demo - 5 & 6 -->
 <div
     class="navbar-area navbar-style-three d-none"
-    [ngClass]="{'d-block': router.url === '/index-5' || router.url === '/index-6'|| router.url === '/services-4' || router.url === '/services-5' || router.url === '/doctors', 'sticky': isSticky}"
+    [ngClass]="{'d-block': router.url === '/index-5' ||router.url === '/osteoarthritis' ||router.url === '/spaTreatments'|| router.url === '/index-6'|| router.url === '/services-4' || router.url === '/services-5' || router.url === '/contact-us-3'|| router.url === '/'|| router.url === '/appointment', 'sticky': isSticky}"
 >
-    <div class="container-fluid">
+    <div>
         <nav
             class="navbar navbar-expand-lg navbar-light bg-light"
             [class.active]="classApplied"
@@ -1241,7 +1241,7 @@
                         </ul> -->
                     </li>
                     <li class="nav-item">
-                        <a href="javascript:void(0)" class="dropdown-toggle nav-link">
+                        <a href="javascript:void(0)" class="dropdown-toggle nav-link" routerLink="/spaTreatments">
                             Spa Treatment
                         </a>
                         <ul class="dropdown-menu">
@@ -1251,7 +1251,7 @@
                                 </a>
                                 <ul class="dropdown-menu">
                                     <li routerLink="/portfolio" class="nav-link" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}" >
-                                        <a href="">Lip</a>
+                                        <a href="">Lips</a>
                                     </li>
                                     <li routerLink="/portfolio" class="nav-link" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}" >
                                         <a href="">Cheeks</a>
@@ -1266,7 +1266,10 @@
                                         <a href="">Under Eyes</a>
                                     </li>
                                     <li routerLink="/portfolio" class="nav-link" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">
-                                        <a href="">Lip</a>
+                                        <a href="">Nasolabial</a>
+                                    </li>
+                                    <li routerLink="/portfolio" class="nav-link" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">
+                                        <a href="">Chin</a>
                                     </li>
                                 </ul>
                             </li>
@@ -1293,6 +1296,9 @@
                                     </li>
                                     <li routerLink="/portfolio" class="nav-link" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}" >
                                         <a href="">Scars Regeneration</a>
+                                    </li>
+                                    <li routerLink="/portfolio" class="nav-link" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}" >
+                                        <a href="">Stretch marks</a>
                                     </li>
                                 </ul>
                             </li>
@@ -1335,7 +1341,7 @@
                         </ul>
                     </li>
                     <li class="nav-item">
-                        <a href="javascript:void(0)" class="dropdown-toggle nav-link">
+                        <a href="javascript:void(0)" routerLink="/osteoarthritis" class="dropdown-toggle nav-link">
                             Osteoarthritis Treatment
                         </a>
                         <ul class="dropdown-menu">
@@ -1489,8 +1495,8 @@
                             </li>
                         </ul> -->
                     </li>
-                    <li class="nav-item">
-                        <a href="javascript:void(0)" class=" nav-link">
+                <li class="nav-item">
+                        <a href="javascript:void(0)"  routerLink="/contact-us-3" class="nav-link" >
                             Contact Us
                         </a>
                         <!-- <ul class="dropdown-menu">
@@ -1803,7 +1809,7 @@
 </div>
 
 <!-- Navbar for Home Demo - 7 -->
-<div
+<!-- <div
     class="navbar-area navbar-style-four d-none"
     stickyClass="sticky-box-shadow"
     ngStickyNav
@@ -1815,9 +1821,9 @@
             [class.active]="classApplied"
         >
             <a class="navbar-brand" routerLink="/" (click)="toggleClass()">
-                <!-- <h1>
+                <h1>
                     LOL
-                </h1> -->
+                </h1>
                 <img src="/src/assets/images/Modern Regenerative Health logo (1).png" alt="">
             </a>
             <button class="navbar-toggler" type="button" (click)="toggleClass()">
@@ -2389,10 +2395,10 @@
             </div>
         </nav>
     </div>
-</div>
+</div> -->
 
 <!-- Navbar for Home Demo - 8 -->
-<div
+<!-- <div
     class="navbar-area navbar-style-five d-none"
     [ngClass]="{'d-block': router.url === '/index-8' || router.url === '/services-6' || router.url === '/service-details-2' || router.url === '/contact-us-3' || router.url === '/portfolio' || router.url === '/portfolio-details', 'sticky': isSticky}"
 >
@@ -2402,9 +2408,9 @@
             [class.active]="classApplied"
         >
             <a class="navbar-brand" routerLink="/" (click)="toggleClass()">
-                <!-- <h1>
+                <h1>
                     LOL
-                </h1> -->
+                </h1>
                 <img src="/src/assets/images/Modern Regenerative Health logo (1).png" alt="">
             </a>
             <button class="navbar-toggler" type="button" (click)="toggleClass()">
@@ -2976,7 +2982,7 @@
             </div>
         </nav>
     </div>
-</div>
+</div> -->
 
 <!-- Search Overlay -->
 <div
