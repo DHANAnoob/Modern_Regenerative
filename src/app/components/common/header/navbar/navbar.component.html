@@ -1171,7 +1171,7 @@
 <!-- Navbar for Home Demo - 5 & 6 -->
 <div
     class="navbar-area navbar-style-three d-none"
-    [ngClass]="{'d-block': router.url === '/index-5' ||router.url === '/osteoarthritis' ||router.url === '/spaTreatments'|| router.url === '/index-6'|| router.url === '/services-4' || router.url === '/services-5' || router.url === '/contact-us-3'|| router.url === '/'|| router.url === '/appointment', 'sticky': isSticky}"
+    [ngClass]="{'d-block': router.url === '/index-5' ||router.url === '/microNeedling'||router.url === '/weightLoss'||router.url === '/prpFacial'||router.url === '/dex-detox' || router.url === '/prfFillers' || router.url === '/sexualHealth' ||router.url === '/osteoarthritis' ||router.url === '/spaTreatments'|| router.url === '/index-6'|| router.url === '/services-4' || router.url === '/services-5' || router.url === '/contact-us-3'|| router.url === '/'|| router.url === '/appointment', 'sticky': isSticky}"
 >
     <div>
         <nav
@@ -1246,85 +1246,88 @@
                         </a>
                         <ul class="dropdown-menu">
                             <li class="nav-item">
-                                <a routerLink="/services" class="dropdown-toggle nav-link" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">
+                                <a routerLink="/prfFillers" class="dropdown-toggle nav-link" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">
                                     PRP fillers
                                 </a>
                                 <ul class="dropdown-menu">
-                                    <li routerLink="/portfolio" class="nav-link" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}" >
-                                        <a href="">Lips</a>
+                                    <li routerLink="/prfFillers" class="nav-link" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}" >
+                                        <a routerLink="/prfFillers">Lips</a>
                                     </li>
-                                    <li routerLink="/portfolio" class="nav-link" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}" >
-                                        <a href="">Cheeks</a>
+                                    <li routerLink="/prfFillers" class="nav-link" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}" >
+                                        <a routerLink="/prfFillers">Cheeks</a>
                                     </li>
-                                    <li routerLink="/portfolio" class="nav-link" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}" >
-                                        <a href="">Jawlines</a>
+                                    <li routerLink="/prfFillers" class="nav-link" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}" >
+                                        <a routerLink="/prfFillers">Jawlines</a>
                                     </li>
-                                    <li routerLink="/portfolio" class="nav-link" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">
-                                        <a href="">Temples</a>
+                                    <li routerLink="/prfFillers" class="nav-link" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">
+                                        <a routerLink="/prfFillers">Temples</a>
                                     </li>
-                                    <li routerLink="/portfolio" class="nav-link" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">
-                                        <a href="">Under Eyes</a>
+                                    <li routerLink="/prfFillers" class="nav-link" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">
+                                        <a routerLink="/prfFillers">Under Eyes</a>
                                     </li>
-                                    <li routerLink="/portfolio" class="nav-link" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">
-                                        <a href="">Nasolabial</a>
+                                    <li routerLink="/prfFillers" class="nav-link" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">
+                                        <a routerLink="/prfFillers">Nasolabial</a>
                                     </li>
-                                    <li routerLink="/portfolio" class="nav-link" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">
-                                        <a href="">Chin</a>
+                                    <li routerLink="/prfFillers" class="nav-link" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">
+                                        <a routerLink="/prfFillers">Chin</a>
                                     </li>
                                 </ul>
                             </li>
                             <li class="nav-item">
-                                <a routerLink="/services-2" class="dropdown-toggle nav-link" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">
+                                <a rrouterLink="/prpFacial" class="dropdown-toggle nav-link" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">
                                     Beauty Model/Face
                                 </a>
                                 <ul class="dropdown-menu">
-                                    <li routerLink="/portfolio" class="nav-link" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}" >
-                                        <a href="">PRP Facial</a>
+                                    <li routerLink="prpFacial" class="nav-link" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}" >
+                                        <a routerLink="prpFacial">PRP Facial</a>
                                     </li>
-                                    <li routerLink="/portfolio" class="nav-link" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}" >
-                                        <a href="">Micro Needling</a>
+                                    <li routerLink="/microNeedling" class="nav-link" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}" >
+                                        <a routerLink="/microNeedling">Micro Needling</a>
+                                    </li>
+                                    <li routerLink="/dex-detox" class="nav-link" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}" >
+                                        <a routerLink="/dex-detox">Dex Detox</a>
                                     </li>
                                 </ul>
                             </li>
                             <li class="nav-item">
-                                <a routerLink="/services-3" class="dropdown-toggle nav-link" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">
+                                <a routerLink="/prfFillers" class="dropdown-toggle nav-link" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">
                                     Cosmetics
                                 </a>
                                 <ul class="dropdown-menu">
-                                    <li routerLink="/portfolio" class="nav-link" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}" >
-                                        <a href="">PRP Breast</a>
+                                    <li routerLink="/prfFillers" class="nav-link" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}" >
+                                        <a routerLink="/prfFillers">PRP Breast</a>
                                     </li>
                                     <li routerLink="/portfolio" class="nav-link" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}" >
-                                        <a href="">Scars Regeneration</a>
+                                        <a routerLink="/prfFillers">Scars Regeneration</a>
                                     </li>
-                                    <li routerLink="/portfolio" class="nav-link" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}" >
-                                        <a href="">Stretch marks</a>
+                                    <li routerLink="/prfFillers" class="nav-link" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}" >
+                                        <a routerLink="/prfFillers">Stretch marks</a>
                                     </li>
                                 </ul>
                             </li>
                             <li class="nav-item">
-                                <a routerLink="/services-4" class="nav-link" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">
+                                <a routerLink="/prfFillers" class="nav-link" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">
                                     Hair  removal
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a routerLink="/services-4" class="nav-link" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">
+                                <a routerLink="/prfFillers" class="nav-link" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">
                                     Hair  Restoration
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a routerLink="/services-5" class="dropdown-toggle nav-link" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">
+                                <a routerLink="/sexualHealth" class="dropdown-toggle nav-link" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">
                                     Sexual Health
                                 </a>
                                 <ul class="dropdown-menu">
-                                    <li routerLink="/portfolio" class="nav-link" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}" >
-                                        <a href="">O Shot</a>
+                                    <li class="nav-link" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}" >
+                                        <a routerLink="/sexualHealth" class="nav-link" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}" >O Shot</a>
                                     </li>
                                 </ul>
                                 
                             </li>
                             <li class="nav-item">
-                                <a routerLink="/services-6" class="nav-link" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">
+                                <a routerLink="/weightLoss" class="nav-link" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">
                                     Weight Loss
                                 </a>
                             </li>
@@ -1346,17 +1349,17 @@
                         </a>
                         <ul class="dropdown-menu">
                             <li class="nav-item">
-                                <a routerLink="/dentists" class="nav-link" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">
+                                <a routerLink="/osteoarthritis" class="nav-link" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">
                                     Knee
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a routerLink="/doctors" class="nav-link" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">
+                                <a routerLink="/osteoarthritis" class="nav-link" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">
                                     Shoulder
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a routerLink="/dentist-details" class="nav-link" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">
+                                <a routerLink="/osteoarthritis" class="nav-link" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">
                                     Hips
                                 </a>
                             </li>
@@ -1468,7 +1471,7 @@
                             </li>
                         </ul>
                     </li> -->
-                    <li class="nav-item">
+                    <li class="nav-item" routerLink="/prfFillers">
                         <a href="javascript:void(0)" class=" nav-link">
                             Meet Our Team
                         </a>

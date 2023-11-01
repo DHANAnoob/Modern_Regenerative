@@ -1,7 +1,7 @@
 <!-- Default Why Choose Us Section -->
 <div
-    class="dental-tourism-choose-area ptb-100"
-    [ngClass]="{'d-none': router.url === '/index-5'}"
+    class="dental-tourism-choose-area ptb-100 "
+    [ngClass]="{'d-none': router.url === '/index-5'||router.url === '/'}"
 >
     <div class="container">
         <div class="row align-items-center">
@@ -44,8 +44,8 @@
 
 <!-- Why Choose Us Section for Home Demo - 5 -->
 <div
-    class="skin-care-dry-area ptb-100 d-none"
-    [ngClass]="{'d-block': router.url === '/index-5'}"
+    class="skin-care-dry-area ptb-100"
+    [ngClass]="{'d-block': router.url === '/index-5' || router.url === '/'}"
 >
     <div class="container">
         <div class="row align-items-center">

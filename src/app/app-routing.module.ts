@@ -1,4 +1,4 @@
-import { NgModule } from '@angular/core';
+import { Component, NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { NotFoundComponent } from './components/common/not-found/not-found.component';
 import { AboutPageOneComponent } from './components/pages/about-page-one/about-page-one.component';
@@ -48,9 +48,15 @@ import { ContactUsComponent } from './components/common/contact-us/contact-us.co
 // import { ContactUsComponent } from './components/pages/contact-us/contact-us.component';
 import { SpaTreatmentsComponent } from './components/pages/spa-treatments/spa-treatments.component';
 import { OsteoarthritisComponent } from './components/pages/osteoarthritis/osteoarthritis.component';
+import { SexualHealthComponent } from './components/pages/sexual-health/sexual-health.component';
+import { PrfFillersComponent } from './components/pages/prf-fillers/prf-fillers.component';
+import { MicroNeedlingComponent } from './components/pages/micro-needling/micro-needling.component';
+import { PrpFacialComponent } from './components/pages/prp-facial/prp-facial.component';
+import { DexDetoxComponent } from './components/pages/dex-detox/dex-detox.component';
+import { WeightLossComponent } from './components/pages/weight-loss/weight-loss.component';
 
 const routes: Routes = [
-    {path: '', component: HomeDemoOneComponent},
+    {path: '', component: HomeDemoFiveComponent},
     // {path: 'index-2', component: HomeDemoTwoComponent},
     // {path: 'index-3', component: HomeDemoThreeComponent},
     // {path: 'index-4', component: HomeDemoFourComponent},
@@ -98,7 +104,12 @@ const routes: Routes = [
     {path: 'contact-us-new,', component:ContactUsComponent},
     {path: 'spaTreatments', component: SpaTreatmentsComponent},
     {path: 'osteoarthritis', component: OsteoarthritisComponent},
-
+    {path: 'sexualHealth', component: SexualHealthComponent},
+    {path: 'prfFillers', component: PrfFillersComponent},
+    {path: 'microNeedling', component: MicroNeedlingComponent},
+    {path: 'prpFacial', component: PrpFacialComponent},
+    {path: 'dex-detox', component: DexDetoxComponent},
+    {path: 'weightLoss', component: WeightLossComponent},
     {path: '**', component: NotFoundComponent} // This line will remain down from the whole pages component list
 ];
 

@@ -109,6 +109,12 @@ import { RegisterForVaccinePageComponent } from './components/pages/register-for
 import { ContactUsComponent } from './components/common/contact-us/contact-us.component';
 import { SpaTreatmentsComponent } from './components/pages/spa-treatments/spa-treatments.component';
 import { OsteoarthritisComponent } from './components/pages/osteoarthritis/osteoarthritis.component';
+import { SexualHealthComponent } from './components/pages/sexual-health/sexual-health.component';
+import { PrfFillersComponent } from './components/pages/prf-fillers/prf-fillers.component';
+import { MicroNeedlingComponent } from './components/pages/micro-needling/micro-needling.component';
+import { PrpFacialComponent } from './components/pages/prp-facial/prp-facial.component';
+import { DexDetoxComponent } from './components/pages/dex-detox/dex-detox.component';
+import { WeightLossComponent } from './components/pages/weight-loss/weight-loss.component';
 
 @NgModule({
     declarations: [
@@ -206,6 +212,12 @@ import { OsteoarthritisComponent } from './components/pages/osteoarthritis/osteo
         ContactUsComponent,
         SpaTreatmentsComponent,
         OsteoarthritisComponent,
+        SexualHealthComponent,
+        PrfFillersComponent,
+        MicroNeedlingComponent,
+        PrpFacialComponent,
+        DexDetoxComponent,
+        WeightLossComponent,
     ],
     imports: [
         BrowserModule,

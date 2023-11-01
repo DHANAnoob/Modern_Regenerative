@@ -1,7 +1,7 @@
 <!-- Footer -->
 <footer
     class="footer-area pt-100 pb-75"
-    [ngClass]="{'d-none': router.url === '/index-4' || router.url === '/index-5' || router.url === '/index-6' || router.url === '/index-7' || router.url === '/index-8' || router.url === '/services-4' || router.url === '/services-5' || router.url === '/services-6' || router.url === '/service-details-2' || router.url === '/contact-us-2' || router.url === '/contact-us-3' || router.url === '/portfolio' || router.url === '/portfolio-details'}"
+    [ngClass]="{'d-none': router.url === '/' ||router.url === '/index-4' || router.url === '/sexualHealth' || router.url === '/weightLoss' || router.url === '/prpFacial'||router.url === '/appointment'||router.url === '/index-5' || router.url === '/prfFillers' || router.url === '/index-6' || router.url === '/index-7' || router.url === '/index-8' || router.url === '/services-4' || router.url === '/services-5' || router.url === '/services-6' || router.url === '/service-details-2' || router.url === '/contact-us-2' || router.url === '/contact-us-3' || router.url === '/portfolio' || router.url === '/contact-us-3' || router.url === '/spaTreatments'|| router.url === '/osteoarthritis'|| router.url === '/microNeedling'|| router.url === '/dex-detox'}"
 >
     <div class="container">
         <div class="row">
@@ -117,7 +117,7 @@
 <!-- Copyright -->
 <div
     class="copyright-area"
-    [ngClass]="{'d-none': router.url === '/index-4' || router.url === '/index-5' || router.url === '/index-6' || router.url === '/index-7' || router.url === '/index-8' || router.url === '/services-4' || router.url === '/services-5' || router.url === '/services-6' || router.url === '/service-details-2' || router.url === '/contact-us-2' || router.url === '/contact-us-3' || router.url === '/portfolio' || router.url === '/portfolio-details'}"
+    [ngClass]="{'d-none': router.url === '/' ||router.url === '/index-4' || router.url === '/microNeedling' || router.url === '/weightLoss' ||router.url === '/dex-detox'|| router.url === '/prpFacial'||router.url === '/sexualHealth'||router.url === '/appointment'|| router.url === '/prfFillers'|| router.url === '/osteoarthritis'|| router.url === '/index-5' || router.url === '/spaTreatments'|| router.url === '/index-6' || router.url === '/index-7' || router.url === '/index-8' || router.url === '/services-4' || router.url === '/services-5' || router.url === '/services-6' || router.url === '/service-details-2' || router.url === '/contact-us-2' || router.url === '/contact-us-3' || router.url === '/portfolio' || router.url === '/portfolio-details'}"
 >
     <div class="container">
         <div class="copyright-area-content">
@@ -279,33 +279,39 @@
 
 <!-- Footer section for Home Demo - 5 & 6 -->
 <div
-    class="skin-care-footer-area pt-100 d-none"
-    [ngClass]="{'d-block': router.url === '/index-5' || router.url === '/index-6' || router.url === '/services-4' || router.url === '/services-5'}"
+    class="skin-care-footer-area pt-100"
+    [ngClass]="{'d-block': router.url === '/index-5' || router.url === '/' ||router.url === '/dex-detox' ||router.url === '/weightLoss' ||router.url === '/appointment' ||router.url === '/prpFacial' ||router.url === '/microNeedling'|| router.url === '/prfFillers'|| router.url === '/sexualHealth'|| router.url === '/osteoarthritis'|| router.url === '/spaTreatments' || router.url === '/contact-us-3'|| router.url === '/services-4' || router.url === '/services-5'}"
 >
-    <div class="container">
+    <div class="container-fluid">
         <div class="row justify-content-center">
             <div class="col-xl-3 col-lg-4 col-sm-6">
                 <div class="skin-care-footer-widget">
                     <h2>
-                        <a routerLink="/">
-                            Inba
+                        <a routerLink="/index-5">
+                            <img src="../../../../assets/images/Modern Regenerative Health logo (1).png" width="200px" height="100px" alt="">
                         </a>
                     </h2>
                     <ul class="info-list">
-                        <li><span>Location:</span> 35 West Dental Street</li>
-                        <li><span>Phone:</span> <a href="tel:088123654987">+088 123 654 987</a></li>
-                        <li><span>Email:</span> <a href="mailto:hello@inba.com">hello@inba.com</a></li>
+                        <li><span>Location:</span>1 Stiles Rd, Salem, NH 03079</li>
+                        <li><span>Phone:</span> <a href="tel:6034582322">603 458 2322</a></li>
+                        <!-- <li><span>Email:</span> <a href="mailto:hello@inba.com"></a></li> -->
+                    </ul>
+                    <br>
+                    <ul class="info-list">
+                        <li><span>Location:</span>155 Main Dunstable Rd, Nashua NH 03060</li>
+                        <li><span>Phone:</span> <a href="tel:6035771965">603 577 1965</a></li>
+                        <!-- <li><span>Email:</span> <a href="mailto:hello@inba.com"></a></li> -->
                     </ul>
                     <ul class="share-link">
                         <li>
                             <span>Get Social:</span>
                         </li>
                         <li>
-                            <a href="https://www.facebook.com/" target="_blank">
+                            <a href="https://www.facebook.com/modernregenerativehealth?mibextid=LQQJ4d" target="_blank">
                                 <i class='bx bxl-facebook'></i>
                             </a>
                         </li>
-                        <li>
+                        <!-- <li>
                             <a href="https://twitter.com/?lang=en" target="_blank">
                                 <i class='bx bxl-twitter'></i>
                             </a>
@@ -314,9 +320,9 @@
                             <a href="https://www.linkedin.com/" target="_blank">
                                 <i class='bx bxl-linkedin'></i>
                             </a>
-                        </li>
+                        </li> -->
                         <li>
-                            <a href="https://www.instagram.com/" target="_blank">
+                            <a href="https://www.instagram.com/modernregenerativehealth/?igshid=MzRlODBiNWFlZA%3D%3D" target="_blank">
                                 <i class='bx bxl-instagram'></i>
                             </a>
                         </li>
@@ -329,23 +335,23 @@
                     <ul class="quick-links">
                         <li>
                             <i class='bx bxs-chevrons-right'></i>
-                            <a routerLink="/about-us">About Us</a>
+                            <a routerLink="/index-5">Meet Our Team</a>
                         </li>
                         <li>
                             <i class='bx bxs-chevrons-right'></i>
-                            <a routerLink="/services">Our Services</a>
+                            <a routerLink="/index-5">Our Services</a>
                         </li>
                         <li>
                             <i class='bx bxs-chevrons-right'></i>
-                            <a routerLink="/appointment">Appointment</a>
+                            <a routerLink="/index-5">Appointment</a>
                         </li>
                         <li>
                             <i class='bx bxs-chevrons-right'></i>
-                            <a routerLink="/privacy-policy">Privacy Policy</a>
+                            <a routerLink="/index-5">Privacy Policy</a>
                         </li>
                         <li>
                             <i class='bx bxs-chevrons-right'></i>
-                            <a routerLink="/contact-us">Contact Us</a>
+                            <a routerLink="/index-5">Contact Us</a>
                         </li>
                     </ul>
                 </div>
@@ -404,10 +410,10 @@
                     </ul>
                 </div>
             </div>
-            <div class="col-xl-3 col-lg-8 col-sm-12">
+            <!-- <div class="col-xl-3 col-lg-8 col-sm-12">
                 <div
                     class="skin-care-footer-widget"
-                    [ngClass]="{'d-none': router.url === '/index-6'}"
+                    
                 >
                     <h3>Newsletter</h3>
                     <form class="newsletter-form">
@@ -417,8 +423,8 @@
                             <button type="submit"><i class='bx bx-send'></i></button>
                         </div>
                     </form>
-                </div>
-                <div
+                </div> -->
+                <!-- <div
                     class="skin-care-footer-widget d-none"
                     [ngClass]="{'d-block': router.url === '/index-6'}"
                 >
@@ -445,18 +451,18 @@
                             <span>Closed</span>
                         </li>
                     </ul>
-                </div>
+                </div> -->
             </div>
         </div>
         <div class="skin-care-copyright-area">
             <div class="container">
                 <div class="copyright-area-content">
-                    <p>© Inba is Proudly Owned by <a href="https://hibotheme.com/" target="_blank">HiboTheme</a></p>
+                    <p>© Modern Regenerative Health is Proudly Owned by <a href="http://dharstec.com/" target="_blank">Dharstec Solutions</a></p>
                 </div>
             </div>
         </div>
     </div>
-</div>
+
 
 <!-- Footer section for Home Demo - 7 -->
 <div
@@ -577,7 +583,7 @@
 <!-- Footer section for Home Demo - 8 -->
 <div
     class="hospital-footer-area pt-100 d-none"
-    [ngClass]="{'d-block': router.url === '/index-8' || router.url === '/services-6' || router.url === '/service-details-2' || router.url === '/contact-us-3' || router.url === '/portfolio' || router.url === '/portfolio-details'}"
+    [ngClass]="{'d-block': router.url === '/index-8' || router.url === '/services-6' || router.url === '/service-details-2'  || router.url === '/portfolio' || router.url === '/portfolio-details'}"
     style="background-image: url(assets/images/hospital/footer-bg.jpg);"
 >
     <div class="container">
